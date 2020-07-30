@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contents",
+  "info": {
+    "name": "Contents"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page": {
+      "model": "pages",
+      "via": "content"
+    },
+    "page_contents": {
+      "type": "dynamiczone",
+      "components": [
+        "repeatable-views.card-with-image-container",
+        "repeatable-views.carousel-container",
+        "repeatable-views.cwi-con-top-container",
+        "repeatable-views.ibwi-container",
+        "view-types.product-table",
+        "view-types.generic-input"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_repeatable_views_ibwi_containers",
+  "info": {
+    "name": "IBWI Container",
+    "icon": "list-alt"
+  },
+  "options": {},
+  "attributes": {
+    "components": {
+      "type": "component",
+      "repeatable": true,
+      "component": "view-types.info-block-with-image"
+    }
+  }
+}

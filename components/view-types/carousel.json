@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_view_types_carousels",
+  "info": {
+    "name": "Carousel With Person Image",
+    "icon": "pause"
+  },
+  "options": {},
+  "attributes": {
+    "text_TR": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description_TR": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "text_EN": {
+      "type": "string"
+    },
+    "description_EN": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Pages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title_TR": {
+      "type": "string"
+    },
+    "routeUrl": {
+      "type": "string"
+    },
+    "description_TR": {
+      "type": "string"
+    },
+    "content": {
+      "via": "page",
+      "model": "contents"
+    },
+    "title_EN": {
+      "type": "string"
+    },
+    "description_EN": {
+      "type": "string"
+    }
+  }
+}

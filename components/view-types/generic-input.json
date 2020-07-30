@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_view_types_generic_inputs",
+  "info": {
+    "name": "Generic Input",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "rich_text": {
+      "type": "richtext"
+    }
+  }
+}

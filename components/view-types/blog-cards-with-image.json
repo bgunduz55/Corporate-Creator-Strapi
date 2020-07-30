@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_view_types_blog_cards_with_images",
+  "info": {
+    "name": "Blog Cards With Image",
+    "icon": "id-card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title_TR": {
+      "type": "string"
+    },
+    "text_TR": {
+      "type": "string"
+    },
+    "title_EN": {
+      "type": "string"
+    },
+    "text_EN": {
+      "type": "string"
+    }
+  }
+}

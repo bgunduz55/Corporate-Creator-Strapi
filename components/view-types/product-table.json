@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_view_types_product_tables",
+  "info": {
+    "name": "Product Table",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "products": {
+      "collection": "products"
+    }
+  }
+}

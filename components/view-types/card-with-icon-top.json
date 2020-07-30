@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_view_types_card_with_icon_tops",
+  "info": {
+    "name": "Card With Icon Top",
+    "icon": "id-badge"
+  },
+  "options": {},
+  "attributes": {
+    "title_TR": {
+      "type": "string"
+    },
+    "text_TR": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "paper",
+        "pc",
+        "atom",
+        "cardiogram",
+        "drugs",
+        "cancer"
+      ]
+    },
+    "title_EN": {
+      "type": "string"
+    },
+    "text_EN": {
+      "type": "string"
+    }
+  }
+}

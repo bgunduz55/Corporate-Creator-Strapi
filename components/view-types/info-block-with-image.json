@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_view_types_info_block_with_images",
+  "info": {
+    "name": "Info Block With Image",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "rich_text_TR": {
+      "type": "richtext"
+    },
+    "rich_text_EN": {
+      "type": "richtext"
+    }
+  }
+}

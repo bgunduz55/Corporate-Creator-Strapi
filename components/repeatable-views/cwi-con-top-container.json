@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_repeatable_views_cwi_con_top_containers",
+  "info": {
+    "name": "CWIconTop Container",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "components": {
+      "type": "component",
+      "repeatable": true,
+      "component": "view-types.card-with-icon-top"
+    }
+  }
+}

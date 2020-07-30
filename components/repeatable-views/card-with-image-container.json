@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_repeatable_views_cwi_container",
+  "info": {
+    "name": "CWI Container",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "components": {
+      "type": "component",
+      "repeatable": true,
+      "component": "view-types.blog-cards-with-image"
+    }
+  }
+}

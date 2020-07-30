@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_repeatable_views_carousel_containers",
+  "info": {
+    "name": "Carousel Container",
+    "icon": "redo"
+  },
+  "options": {},
+  "attributes": {
+    "components": {
+      "type": "component",
+      "repeatable": true,
+      "component": "view-types.carousel"
+    }
+  }
+}
