@@ -9,7 +9,7 @@ module.exports = ({ env }) => ({
         port: env.int('DATABASE_PORT', 3306),
         database: env('DATABASE_NAME', 'neutec_corporate_admin'),
         username: env('DATABASE_USERNAME', 'admin'),
-        password: env('DATABASE_PASSWORD', 'samsunsamsun55'),
+        password: env('DATABASE_PASSWORD', '1qaz2WSX!!'),
         ssl: env.bool('DATABASE_SSL', false),
       },
       options: {}
