@@ -1,34 +1,33 @@
 {
-  "kind": "collectionType",
-  "collectionName": "pages",
+  "collectionName": "components_view_types_tabbed_blocks",
   "info": {
-    "name": "Pages"
+    "name": "tabbed-block",
+    "icon": "list"
   },
-  "options": {
-    "increments": true,
-    "timestamps": true
-  },
+  "options": {},
   "attributes": {
+    "tab_title_TR": {
+      "type": "string"
+    },
+    "tab_title_EN": {
+      "type": "string"
+    },
     "title_TR": {
       "type": "string"
-    },
-    "routeUrl": {
-      "type": "string"
-    },
-    "description_TR": {
-      "type": "string"
-    },
-    "content": {
-      "model": "contents",
-      "via": "page"
     },
     "title_EN": {
       "type": "string"
     },
+    "description_TR": {
+      "type": "richtext"
+    },
     "description_EN": {
+      "type": "richtext"
+    },
+    "route_url": {
       "type": "string"
     },
-    "background_image": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "index_pages",
+  "info": {
+    "name": "İndex Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "view-types.index-header"
+    },
+    "contents": {
+      "type": "dynamiczone",
+      "components": [
+        "repeatable-views.carousel-container",
+        "repeatable-views.card-with-image-container",
+        "repeatable-views.cwi-con-top-container",
+        "repeatable-views.ibwi-container",
+        "view-types.generic-input",
+        "repeatable-views.tabbed-block-container",
+        "view-types.istun-block",
+        "view-types.left-video-block",
+        "repeatable-views.cwi-container-2"
+      ]
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "view-types.footer"
+    }
+  }
+}

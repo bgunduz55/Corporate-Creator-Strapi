@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_view_types_generic_inputs",
+  "collectionName": "components_view_types_index_headers",
   "info": {
-    "name": "Generic Input",
-    "icon": "bars"
+    "name": "index-header",
+    "icon": "angle-double-up"
   },
   "options": {},
   "attributes": {

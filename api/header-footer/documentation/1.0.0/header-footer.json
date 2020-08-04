@@ -1,18 +1,19 @@
 {
   "paths": {
-    "/pages": {
+    "/header-footers": {
       "get": {
         "deprecated": false,
-        "description": "Find all the pages's records",
+        "description": "",
         "responses": {
           "200": {
-            "description": "Retrieve pages document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Pages"
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
                   }
                 }
               }
@@ -51,7 +52,7 @@
         },
         "summary": "",
         "tags": [
-          "Pages"
+          "Header-footer"
         ],
         "parameters": [
           {
@@ -194,79 +195,16 @@
       },
       "post": {
         "deprecated": false,
-        "description": "Create a new pages record",
+        "description": "Create a new record",
         "responses": {
           "200": {
-            "description": "Retrieve pages document(s)",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Pages"
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "default": {
-            "description": "unexpected error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        },
-        "summary": "",
-        "tags": [
-          "Pages"
-        ],
-        "requestBody": {
-          "description": "",
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/NewPages"
-              }
-            }
-          }
-        }
-      }
-    },
-    "/pages/count": {
-      "get": {
-        "deprecated": false,
-        "description": "Retrieve the numver of pages documents",
-        "responses": {
-          "200": {
-            "description": "Retrieve pages document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
                   "properties": {
-                    "count": {
-                      "type": "integer"
+                    "foo": {
+                      "type": "string"
                     }
                   }
                 }
@@ -306,22 +244,36 @@
         },
         "summary": "",
         "tags": [
-          "Pages"
+          "Header-footer"
         ],
-        "parameters": []
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewHeader-footer"
+              }
+            }
+          }
+        }
       }
     },
-    "/pages/{id}": {
+    "/header-footers/count": {
       "get": {
         "deprecated": false,
-        "description": "Find one pages record",
+        "description": "",
         "responses": {
           "200": {
-            "description": "Retrieve pages document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Pages"
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
                 }
               }
             }
@@ -359,7 +311,64 @@
         },
         "summary": "",
         "tags": [
-          "Pages"
+          "Header-footer"
+        ],
+        "parameters": []
+      }
+    },
+    "/header-footers/{id}": {
+      "get": {
+        "deprecated": false,
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Header-footer"
         ],
         "parameters": [
           {
@@ -376,14 +385,18 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a single pages record",
+        "description": "Update a record",
         "responses": {
           "200": {
-            "description": "Retrieve pages document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Pages"
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
                 }
               }
             }
@@ -421,7 +434,7 @@
         },
         "summary": "",
         "tags": [
-          "Pages"
+          "Header-footer"
         ],
         "requestBody": {
           "description": "",
@@ -429,7 +442,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewPages"
+                "$ref": "#/components/schemas/NewHeader-footer"
               }
             }
           }
@@ -449,10 +462,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a single pages record",
+        "description": "Delete a record",
         "responses": {
           "200": {
-            "description": "deletes a single pages based on the ID supplied",
+            "description": "deletes a single record based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -495,7 +508,7 @@
         },
         "summary": "",
         "tags": [
-          "Pages"
+          "Header-footer"
         ],
         "parameters": [
           {
@@ -514,7 +527,7 @@
   },
   "components": {
     "schemas": {
-      "Pages": {
+      "Header-footer": {
         "required": [
           "id"
         ],
@@ -522,16 +535,8 @@
           "id": {
             "type": "string"
           },
-          "title_TR": {
-            "type": "string"
-          },
-          "routeUrl": {
-            "type": "string"
-          },
-          "description_TR": {
-            "type": "string"
-          },
-          "content": {
+          "header": {
+            "type": "object",
             "required": [
               "id"
             ],
@@ -539,110 +544,72 @@
               "id": {
                 "type": "string"
               },
-              "page": {
+              "rich_text_TR": {
                 "type": "string"
               },
-              "page_contents": {
-                "type": "dynamiczone"
+              "rich_text_EN": {
+                "type": "string"
               }
             }
           },
-          "title_EN": {
-            "type": "string"
-          },
-          "description_EN": {
-            "type": "string"
-          },
-          "background_image": {
+          "footer": {
+            "type": "object",
             "required": [
-              "id",
-              "name",
-              "hash",
-              "mime",
-              "size",
-              "url",
-              "provider"
+              "id"
             ],
             "properties": {
               "id": {
                 "type": "string"
               },
-              "name": {
+              "rich_text_TR": {
                 "type": "string"
               },
-              "alternativeText": {
-                "type": "string"
-              },
-              "caption": {
-                "type": "string"
-              },
-              "width": {
-                "type": "integer"
-              },
-              "height": {
-                "type": "integer"
-              },
-              "formats": {
-                "type": "object"
-              },
-              "hash": {
-                "type": "string"
-              },
-              "ext": {
-                "type": "string"
-              },
-              "mime": {
-                "type": "string"
-              },
-              "size": {
-                "type": "number"
-              },
-              "url": {
-                "type": "string"
-              },
-              "previewUrl": {
-                "type": "string"
-              },
-              "provider": {
-                "type": "string"
-              },
-              "provider_metadata": {
-                "type": "object"
-              },
-              "related": {
+              "rich_text_EN": {
                 "type": "string"
               }
             }
           }
         }
       },
-      "NewPages": {
+      "NewHeader-footer": {
         "properties": {
-          "title_TR": {
-            "type": "string"
+          "header": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "rich_text_TR": {
+                "type": "string"
+              },
+              "rich_text_EN": {
+                "type": "string"
+              }
+            }
           },
-          "routeUrl": {
-            "type": "string"
-          },
-          "description_TR": {
-            "type": "string"
-          },
-          "content": {
-            "type": "string"
-          },
-          "title_EN": {
-            "type": "string"
-          },
-          "description_EN": {
-            "type": "string"
+          "footer": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "rich_text_TR": {
+                "type": "string"
+              },
+              "rich_text_EN": {
+                "type": "string"
+              }
+            }
           }
         }
       }
     }
   },
-  "tags": [
-    {
-      "name": "Pages"
-    }
-  ]
+  "tags": []
 }

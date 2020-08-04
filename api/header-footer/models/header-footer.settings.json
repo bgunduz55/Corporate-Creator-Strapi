@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_footers",
+  "info": {
+    "name": "header-footer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "view-types.index-header"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "view-types.footer"
+    }
+  }
+}

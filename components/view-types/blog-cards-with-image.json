@@ -28,6 +28,15 @@
     },
     "text_EN": {
       "type": "string"
+    },
+    "route_url": {
+      "type": "string"
+    },
+    "category_TR": {
+      "type": "string"
+    },
+    "category_EN": {
+      "type": "string"
     }
   }
 }

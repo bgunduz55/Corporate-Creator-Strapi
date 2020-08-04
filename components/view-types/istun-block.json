@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_view_types_istun_blocks",
+  "info": {
+    "name": "istun-block",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "title_TR": {
+      "type": "string"
+    },
+    "title_EN": {
+      "type": "string"
+    },
+    "button_text_TR": {
+      "type": "string"
+    },
+    "button_text_EN": {
+      "type": "string"
+    },
+    "button_URL": {
+      "type": "string"
+    },
+    "subtitle_TR": {
+      "type": "string"
+    },
+    "subtitle_EN": {
+      "type": "string"
+    },
+    "rich_text_TR": {
+      "type": "richtext"
+    },
+    "rich_text_EN": {
+      "type": "richtext"
+    },
+    "background_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

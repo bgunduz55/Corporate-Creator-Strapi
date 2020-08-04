@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_repeatable_views_tabbed_block_containers",
+  "info": {
+    "name": "Tabbed-block-container",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "components": {
+      "type": "component",
+      "repeatable": true,
+      "component": "view-types.tabbed-block"
+    },
+    "title_TR": {
+      "type": "string"
+    },
+    "title_EN": {
+      "type": "string"
+    },
+    "subtitle_TR": {
+      "type": "string"
+    },
+    "subtitle_EN": {
+      "type": "string"
+    }
+  }
+}

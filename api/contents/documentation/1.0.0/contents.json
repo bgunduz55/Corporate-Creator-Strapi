@@ -547,6 +547,9 @@
               },
               "description_EN": {
                 "type": "string"
+              },
+              "background_image": {
+                "type": "string"
               }
             }
           },
@@ -652,6 +655,15 @@
                             "type": "string"
                           },
                           "text_EN": {
+                            "type": "string"
+                          },
+                          "route_url": {
+                            "type": "string"
+                          },
+                          "category_TR": {
+                            "type": "string"
+                          },
+                          "category_EN": {
                             "type": "string"
                           }
                         }
@@ -995,7 +1007,10 @@
                     "id": {
                       "type": "string"
                     },
-                    "rich_text": {
+                    "rich_text_TR": {
+                      "type": "string"
+                    },
+                    "rich_text_EN": {
                       "type": "string"
                     }
                   },
@@ -1116,6 +1131,15 @@
                           },
                           "text_EN": {
                             "type": "string"
+                          },
+                          "route_url": {
+                            "type": "string"
+                          },
+                          "category_TR": {
+                            "type": "string"
+                          },
+                          "category_EN": {
+                            "type": "string"
                           }
                         }
                       }
@@ -1458,7 +1482,10 @@
                     "id": {
                       "type": "string"
                     },
-                    "rich_text": {
+                    "rich_text_TR": {
+                      "type": "string"
+                    },
+                    "rich_text_EN": {
                       "type": "string"
                     }
                   },

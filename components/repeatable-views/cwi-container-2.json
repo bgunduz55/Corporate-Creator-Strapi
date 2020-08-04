@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_repeatable_views_cwi_container_2_s",
+  "info": {
+    "name": "CWI Container 2",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "components": {
+      "type": "component",
+      "repeatable": true,
+      "component": "view-types.blog-cards-with-image"
+    },
+    "title_TR": {
+      "type": "string"
+    },
+    "title_EN": {
+      "type": "string"
+    },
+    "subtitle_TR": {
+      "type": "string"
+    },
+    "subtitle_EN": {
+      "type": "string"
+    }
+  }
+}

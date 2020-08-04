@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_view_types_left_video_blocks",
+  "info": {
+    "name": "left-video-block",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "video_url": {
+      "type": "string"
+    },
+    "title_TR": {
+      "type": "string"
+    },
+    "title_EN": {
+      "type": "string"
+    },
+    "subtitle_TR": {
+      "type": "string"
+    },
+    "subtitle_EN": {
+      "type": "string"
+    },
+    "rich_text_TR": {
+      "type": "richtext"
+    },
+    "rich_text_EN": {
+      "type": "richtext"
+    }
+  }
+}

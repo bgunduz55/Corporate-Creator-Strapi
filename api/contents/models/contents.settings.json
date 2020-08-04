@@ -10,8 +10,8 @@
   },
   "attributes": {
     "page": {
-      "model": "pages",
-      "via": "content"
+      "via": "content",
+      "model": "pages"
     },
     "page_contents": {
       "type": "dynamiczone",
