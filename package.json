@@ -1,5 +1,5 @@
 {
-  "name": "neutec-corporate-admin",
+  "name": "corporate-creator-strapi-corporate-admin",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,10 +9,10 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "knex": "<0.20.0",
+    "knex": "^0.20.0",
     "mysql": "latest",
+    "sharp": "^0.32.4",
     "strapi": "3.0.5",
     "strapi-admin": "3.0.5",
     "strapi-connector-bookshelf": "3.0.5",
